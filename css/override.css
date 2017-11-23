@@ -1,0 +1,162 @@
+/*HTML sections*/
+
+header {
+  height: 400px;
+  font-family: serif;
+  color: white;
+  background-image: url(../images/header_image.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  border: 2px;
+  border-bottom: white;
+}
+
+header h1 {
+  padding-top: 100px;
+}
+
+header h2 {
+  padding-bottom: 60px;
+}
+
+nav {
+  height: 50;
+  background: black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+h1 {
+  font-size: 64px;
+  padding-left: 280px;
+}
+
+h2 {
+  font-size: 32px;
+  padding-left: 280px;
+}
+
+h3 {
+  padding-top: 0px;
+}
+
+#edudate {
+  float: right;
+  font-style: italic;
+}
+
+#subject {
+  font-style: italic;
+}
+
+main {
+  color: white;
+  text-align: justify;
+  padding-bottom: 80px;
+}
+
+main #enquiries {
+  padding-top: 100px;
+}
+
+main #mainbodytext2 {
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+
+
+/*DIVS, CLASSES AND HOVERS ETC*/
+
+.nav_bar {
+  width: 100%;
+}
+
+/*FRAMEWORK ALTERATIONS*/
+
+/*Class for when element is above threshold*/
+.pin-top {
+  position: relative;
+}
+
+/*Class for when element is below threshold*/
+.pin-bottom {
+  position: relative;
+}
+
+/*Class for when element is pinned*/
+.pinned {
+  position: fixed !important;
+  width: 100%;
+  background-color: black;
+
+/* label color */
+.input-field label {
+  color: #FFF;
+}
+
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: #FFFFFF;
+ }
+
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid #FFF;
+   box-shadow: 0 1px 0 0 #FFF;
+ }
+
+ /* valid color */
+ .input-field input[type=text].valid {
+   border-bottom: 1px solid #FFF;
+   box-shadow: 0 1px 0 0 #000;
+ }
+
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid #000;
+   box-shadow: 0 1px 0 0 #000;
+ }
+
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #494949;
+ }
+
+ .prefix {
+   color: #9E9E9E;
+ }
+
+i {
+  color: #FFFFFF
+}
+
+.footer-copyright {
+  background-color: #101010;
+}
+
+/*.parallax-container {
+  height: 400px;
+}*/
+
+.parallax {
+  /* The image used */
+  background-image: url("images/header_image.png");
+  /* Set a specific height */
+  height: 400px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
