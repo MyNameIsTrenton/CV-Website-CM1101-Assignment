@@ -15,8 +15,8 @@
 
   <body>
     <header class="parallax">
-      <h1>Trenton McLellan</h1>
-      <h2>Saxophonist
+      <h1 class="hide-on-small-only">Trenton McLellan</h1>
+      <h2 class="hide-on-small-only">Saxophonist
         <a class="hide-on-small-only">|</a>
         <!-- <a class="show-on-small-only">&</a> -->
         Composer</h2>
@@ -27,7 +27,7 @@
         <ul class="tabs tabs-transparent">
           <!-- NEED TO FIX - UNDERLINE ISNT RIGHT SIZE -->
           <li class="tab"><a href="#about">About</a></li>
-          <li class="tab hide-on-med-and-up"><a href="#gallery">Gallery</a></li>
+          <!-- <li class="tab hide-on-med-and-up"><a href="#gallery">Gallery</a></li> -->
           <li class="tab"><a href="#reviews">Reviews</a></li>
           <li class="tab"><a href="#history">History</a></li>
           <li class="tab"><a href="#enquiries">Enquiries</a></li>
@@ -39,32 +39,32 @@
     <!-- About Page -->
     <main id="about" class="container">
       <!-- First image and text -->
-      <div id="block1" class="row">
+      <section id="block1" class="row">
 
         <!-- First Image -->
         <div class="col m4 offset-l1 offset-m4 hide-on-small-only">
-          <img src="images/main_body_1.jpg" alt="Holding saxophone" width="100%">
+          <img src="images/main_body_1.jpg" alt="Image of Trenton holding his saxophone at a jazz bar gig - August 2017" width="100%">
         </div>
 
         <!-- First Text -->
-        <div id="mainbodytext1" class="col s12 l5" id="mainbodytext">
+        <article id="mainbodytext1" class="col s12 l5">
           <h3>Text Text Text</h3>
           <p1 class="flow-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum erat nec sem dapibus ultrices. Morbi porttitor dolor sed arcu rutrum, et rutrum enim maximus. Praesent luctus volutpat nunc, a volutpat neque malesuada quis. Curabitur bibendum lobortis bibendum. Integer vitae blandit velit, sed pretium tellus. Nam et sollicitudin lacus. Fusce ut purus pretium, congue tellus a, sodales ex. Maecenas a feugiat diam. Maecenas cursus dolor sapien, at ultricies elit viverra in. Mauris consectetur luctus luctus. Quisque iaculis varius condimentum. Nam vehicula magna felis, scelerisque dignissim ipsum laoreet sit amet. Aenean nec tortor nulla. Morbi elementum ligula eu dapibus posuere. Nam tempor ac elit a rhoncus. Ut sodales vehicula vestibulum. Suspendisse in consequat turpis. Donec sit amet quam vestibulum, imperdiet tortor eu, sagittis turpis. Ut sagittis ante vitae nibh sagittis, a rutrum sem mattis. Morbi suscipit nisi in elit efficitur ornare. Cras varius nisi eget sapien ultrices elementum. Integer quis sem at quam laoreet tincidunt quis in ante. In iaculis sit amet lacus ut venenatis. Fusce suscipit sollicitudin faucibus. Aliquam vitae nibh ac justo porta malesuada vel a nulla.
           </p1>
-        </div>
-      </div>
+        </article>
+      </section>
 
 
       <!-- Second image and text -->
-      <div id="block2" class="row">
+      <section id="block2" class="row">
 
         <!--Second Image -->
         <div class="col m4 offset-l1 offset-m4 hide-on-small-only">
-          <img src="images/main_body_2.jpg" alt="Holding saxophone" width="100%">
+          <img src="images/main_body_2.jpg" alt="Image of Trenton holding his saxophone at a jazz bar gig - August 2017" width="100%">
         </div>
 
         <!--Second Text -->
-        <div id="mainbodytext2" class="col s12 l5" id="mainbodytext">
+        <article id="mainbodytext2" class="col s12 l5">
           <h3>Sunset at the Jazz Cafe</h3>
           <p1 class="flow-text">
             <i>Verse 1</i><br>
@@ -92,20 +92,39 @@
             Melodies that interlace<br>
             Fusion of a lower base
           </p1>
+        </article>
+      </section>
+
+      <section id="gallery" class="hide-on-med-and-up">
+        <div id="gallery">
+          <h3>Gallery</h3>
+          <div class="col s6">
+            <img src="images/main_body_1.jpg" width="100%" class="materialboxed"
+            data-caption="Jazz Bar Gig, August 2017."
+            alt="Image of Trenton holding his saxophone at a jazz bar gig - August 2017.">
+          </div>
+          <div class="col s6">
+            <img src="images/main_body_2.jpg" width="100%" class="materialboxed"
+            data-caption="Jazz Bar Gig, August 2017."
+            alt="Image of Trenton holding his saxophone at a jazz bar gig - August 2017.">
+          </div>
+          <div class="col s12">
+            <img src="images/piano.jpg" width="100%" class="materialboxed"
+            data-caption="Older brothers wedding reception, November 2016."
+            alt="Image of Trenton playing piano for his brothers wedding reception - November 2016.">
+          </div>
+          <div class="col s12">
+            <img src="images/esjo_with_drake.jpg" width="100%" class="materialboxed"
+            data-caption=" Edinburgh Schools Jazz Orchestra and Drake Music Scotland Concert, June 2016."
+            alt="Image of Trenton playing baritone saxophone with the Edinburgh Schools Jazz Orchestra and Drake Music Scotland - June, 2016.">
+          </div>
+          <div class="col s12">
+            <img src="images/tommy_smith.jpg" width="100%" class="materialboxed"
+            data-caption="Members of the Edinburgh Schools Jazz Orchestra and Tommy Smith, May 2016."
+            alt="Image of Trenton and other members of the Edinburgh Schools Jazz Orchestra and Tommy Smith - May, 2016.">
+          </div>
         </div>
-      </div>
-    </main>
-
-
-
-    <!-- Gallery Page -->
-    <main id="gallery" class="container">
-      <h3>Gallery</h3>
-      <div class="carousel">
-        <a class="carousel-item" href="#one!"><img src="images/main_body_1.jpg"></a>
-        <a class="carousel-item" href="#two!"><img src="images/main_body_2.jpg"></a>
-        <a class="carousel-item" href="#three!"><img src="images/piano.jpg"></a>
-      </div>
+      </section>
     </main>
 
 
@@ -121,23 +140,40 @@
     <!-- History Page -->
     <main id="history" class="container">
       <h3>Edcuation</h3>
-      <h4>Firrhill High School<a id="edudate">2011 - 2017</a></h4>
-      <h4 id="subject" class="flow-text">Advanced Higher Music, (A)</h4><br>
+      <h4>Firrhill High School<a id="edudate" class="hide-on-small-only">2011 - 2017</a>
+      <br>
+      <!-- Date for mobile -->
+      <a id="edudatesmall" class="hide-on-med-and-up">2011 - 2017</a>
+      <br>
+      </h4>
+      <h4 id="subject" class="flow-text">Advanced Higher Music, (A)</h4>
+      <br>
       <p1 class="flow-text">
         In my first year of high school, I was offered to take up 1 instrument. I ended up with the alto saxophone, despite having put double bass as my first choice, but I now understand that I wouldn't have ended up playing it, I would have been crushed.<br>
         I had join many bands, in my early years, including the Senior Wind Band, conducted by Mr Carlo Madden. He Then passed my name to the conductor of the Edinburgh Schools Jazz Orchestra. It was here where I was discovered as a great jazz saxophonist.
       </p1>
       <br>
       <br>
-      <h4>Edinburgh School Jazz Orchestra<a id="edudate">2011 - 2017</a></h4>
-      <h4 id="subject" class="flow-text">Lead Tenor Saxophone</h4><br>
+      <h4>Edinburgh School Jazz Orchestra<a id="edudate" class="hide-on-small-only">2011 - 2017</a>
+      <br>
+      <!-- Date for mobile -->
+      <a id="edudatesmall" class="hide-on-med-and-up">2011 - 2017</a>
+      <br>
+      </h4>
+      <h4 id="subject" class="flow-text">Lead Tenor Saxophone
+      <br>
+      </h4>
       <p1 class="flow-text">
        It was my saxophone teacher who got me into jazz originally. This happened about 4 years of strict Classical playing, so was a little shock yet a great suprise as I had always had an intrest in jazz.<br>
        ESJO was the gateway to what would become a great part of my life. I had a great oppertunity to meet great saxophonists, such as Tommy Smith and Tony. The conductor, Dan Hallam, taught me pretty much everything I know in terms of energy, timing and various other things that I had to relearn in a sense.
       </p1>
       <br>
       <br>
-      <h4>Aberdeen University Saxophone Ensemble<a id="edudate">2017 - Present</a></h4><br>
+      <h4>Aberdeen University Saxophone Ensemble<a id="edudate" class="hide-on-small-only">2017 - Present</a>
+      <br>
+      <!-- Date for mobile -->
+      <a id="edudatesmall" class="hide-on-med-and-up">2017 - Present</a>
+      </h4>
       <p1 class="flow-text">
         I started studying BSc Digital Media at Robert Gordon University in September 2017. As music was such a great part of my life, I didn't want to let it go, so searched for more ensembles in Aberdeen. This is when I sent e-mails to all of the people I know in Aberdeen.<br>
         The Aberdeen University Concert Band has allowed me to continue learning and keep up my musical mind-set.
@@ -273,14 +309,9 @@
       $(document).ready(function(){
 
         // All pages
+
         $('.nav-bar').pushpin({
           top:410,
-        });
-
-
-        // Gallery
-        $(document).ready(function(){
-          $('.carousel').carousel();
         });
 
         // Enquires

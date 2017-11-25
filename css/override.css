@@ -5,18 +5,19 @@ header {
   font-family: serif;
   color: white;
   background-image: url(../images/header_image.jpg);
-  background-size:contain;
+  background-size: auto, 400px;
   background-repeat: no-repeat;
   border: 2px;
   border-bottom: white;
 }
 
 header h1 {
-  padding-top: 100px;
+  margin: 0;
+  padding-top: 140px;
 }
 
 header h2 {
-  padding-bottom: 60px;
+  /*padding-bottom: 60px;*/
 }
 
 nav {
@@ -44,11 +45,21 @@ h2 {
 }
 
 h3 {
+  text-align: left;
   padding-top: 0px;
+  padding-bottom: 5px;
+}
+
+#history h4 {
+  text-align: left;
 }
 
 #edudate {
   float: right;
+  font-style: italic;
+}
+
+#edudatesmall {
   font-style: italic;
 }
 
@@ -67,6 +78,10 @@ main #enquiries {
 }
 
 main #mainbodytext2 {
+  text-align: center;
+}
+
+main #mainbodytext2 h3 {
   text-align: center;
 }
 
