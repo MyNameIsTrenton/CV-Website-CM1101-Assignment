@@ -5,7 +5,8 @@ header {
   font-family: serif;
   color: white;
   background-image: url(../images/header_image.jpg);
-  background-size: auto, 400px;
+  background-size: ,100%;
+  background-attachment: fixed; /* Parallax */
   background-repeat: no-repeat;
   border: 2px;
   border-bottom: white;
@@ -27,11 +28,44 @@ nav {
   padding-bottom: 20px;
 }
 
-
 body {
   background-size: cover;
   background-position: center;
   background-color: black;
+}
+
+main {
+  color: white;
+  text-align: justify;
+  padding-bottom: 80px;
+}
+
+main #enquiries {
+  padding-top: 100px;
+}
+
+main #mainbodytext2 {
+  text-align: center;
+}
+
+main #mainbodytext2 h3 {
+  text-align: center;
+}
+
+main #gallery img {
+  padding-bottom: 20px;
+}
+
+footer #name_address h1 {
+  text-align: right;
+}
+
+footer #name_address p1 {
+  text-align: left;
+}
+
+footer #social_links a {
+  padding-right: 20px;
 }
 
 h1 {
@@ -67,31 +101,12 @@ h3 {
   font-style: italic;
 }
 
-main {
-  color: white;
-  text-align: justify;
-  padding-bottom: 80px;
-}
-
-main #enquiries {
-  padding-top: 100px;
-}
-
-main #mainbodytext2 {
-  text-align: center;
-}
-
-main #mainbodytext2 h3 {
-  text-align: center;
-}
-
 a {
   color: inherit;
 }
 
 
-
-/*DIVS, CLASSES AND HOVERS ETC*/
+/*CLASSES AND HOVERS ETC*/
 
 .nav_bar {
   width: 100%;
@@ -159,6 +174,10 @@ i {
 .footer-copyright {
   background-color: #101010;
 }
+
+/*.nav-bar {
+  z-index: 9999;
+}*/
 
 /*.parallax-container {
   height: 400px;
