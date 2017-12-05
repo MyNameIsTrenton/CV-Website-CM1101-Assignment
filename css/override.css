@@ -17,10 +17,6 @@ header h1 {
   padding-top: 140px;
 }
 
-header h2 {
-  /*padding-bottom: 60px;*/
-}
-
 nav {
   height: 50;
   background: black;
@@ -56,16 +52,9 @@ main #gallery img {
   padding-bottom: 20px;
 }
 
-footer #name_address h1 {
-  text-align: right;
-}
-
-footer #name_address p1 {
-  text-align: left;
-}
-
 footer #social_links a {
   padding-right: 20px;
+  color: white;
 }
 
 h1 {
@@ -84,6 +73,7 @@ h3 {
   padding-bottom: 5px;
 }
 
+
 #history h4 {
   text-align: left;
 }
@@ -101,8 +91,19 @@ h3 {
   font-style: italic;
 }
 
-a {
+/*a {
   color: inherit;
+}*/
+
+/*ratings*/
+#reviews hr {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  border-style: inset;
+  border-width: 1px;
 }
 
 
