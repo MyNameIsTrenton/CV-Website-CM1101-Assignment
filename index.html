@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <!--17/10/2017-->
-<html>
-
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Trenton McLellan</title>
@@ -18,17 +17,14 @@
     <header class="parallax">
       <h1 class="hide-on-small-only">Trenton McLellan</h1>
       <h2 class="hide-on-small-only">Saxophonist
-        <a class="hide-on-small-only">|</a>
-        <!-- <a class="show-on-small-only">&</a> -->
+        <span class="hide-on-small-only">|</span>
         Composer</h2>
     </header>
 
     <nav>
       <div class="nav-bar">
         <ul class="tabs tabs-transparent">
-          <!-- NEED TO FIX - UNDERLINE ISNT RIGHT SIZE -->
           <li class="tab"><a href="#about">About</a></li>
-          <!-- <li class="tab hide-on-med-and-up"><a href="#gallery">Gallery</a></li> -->
           <li class="tab"><a href="#reviews">Reviews</a></li>
           <li class="tab"><a href="#history">History</a></li>
           <li class="tab"><a href="#enquiries">Enquiries</a></li>
@@ -40,7 +36,7 @@
     <!-- About Page -->
     <main id="about" class="container">
       <!-- First image and text -->
-      <section id="block1" class="row">
+      <div id="block1" class="row">
 
         <!-- First Image -->
         <div class="col m4 offset-l1 offset-m4 hide-on-small-only">
@@ -50,16 +46,17 @@
         </div>
 
         <!-- First Text -->
-        <article id="mainbodytext1" class="col s12 l5">
-          <h3>Community at the Heart</h3>
-          <p1 class="flow-text">Ever since I started
-          </p1>
-        </article>
-      </section>
+        <section id="mainbodytext1" class="col s12 l5">
+          <h3>Lorem ipsum dolor</h3>
+          <p1 class="flow-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt mollis diam, consequat volutpat neque. Praesent accumsan ligula finibus dolor efficitur tempor. Duis tristique leo quis risus lacinia, id rhoncus orci scelerisque. Proin ultrices vel nisi non rhoncus. Aenean porttitor dolor eu aliquet pharetra. Integer in eleifend ex, egestas elementum augue. Donec mattis nisi in justo condimentum euismod. Mauris convallis sagittis risus, nec elementum ipsum dignissim nec. In congue fermentum neque eu aliquam. Aliquam porta eget est sit amet dictum. Mauris congue pharetra sapien, sollicitudin consequat velit ultrices tempus.<br>
+          <br>
+          Mauris volutpat nisl in magna porta, quis tempus velit imperdiet. Suspendisse eleifend nibh ut augue viverra lacinia. Aenean dictum vitae nunc eget imperdiet. Morbi consequat tortor a lacus rutrum congue. Donec et congue lectus, vel congue risus. Praesent non dolor turpis. Suspendisse vehicula volutpat bibendum. In id quam eu nunc vulputate aliquam vel ac urna. Pellentesque scelerisque feugiat nunc, in euismod sapien aliquam non. Nullam eu malesuada neque.
+        </section>
+      </div>
 
 
       <!-- Second image and text -->
-      <section id="block2" class="row">
+      <div id="block2" class="row">
 
         <!--Second Image -->
         <div class="col m4 offset-l1 offset-m4 hide-on-small-only">
@@ -69,7 +66,7 @@
         </div>
 
         <!--Second Text -->
-        <article id="mainbodytext2" class="col s12 l5">
+        <section id="mainbodytext2" class="col s12 l5">
           <h3>Sunset at the Jazz Cafe</h3>
           <p1 class="flow-text">
             <i>Verse 1</i><br>
@@ -97,38 +94,37 @@
             Melodies that interlace<br>
             Fusion of a lower base
           </p1>
-        </article>
-      </section>
+        </section>
+      </div>
 
       <section id="gallery">
-        <div id="gallery">
-          <h3>Gallery</h3>
-          <div class="col s6">
-            <img src="images/main_body_1.jpg" width="100%" class="hide-on-med-and-up materialboxed"
-            data-caption="Jazz Bar Gig, August 2017."
-            alt="Image of Trenton holding his saxophone at a jazz bar gig - August 2017.">
+        <h3>Gallery</h3>
+        <!-- For each photo, I have alt text to give a more in depth description of the image so as the blind user does not have to click on the image to find out more detail. -->
+        <div class="col s6">
+          <img src="images/main_body_1.jpg" width="100%" class="hide-on-med-and-up materialboxed"
+          data-caption="Jazz Bar Gig, August 2017."
+          alt="Image of Trenton holding his saxophone at a jazz bar gig - August 2017.">
+        </div>
+        <div class="col s6">
+          <img src="images/main_body_2.jpg" width="100%" class="hide-on-med-and-up materialboxed"
+          data-caption="Jazz Bar Gig, August 2017."
+          alt="Image of Trenton holding his saxophone at a jazz bar gig - August 2017.">
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <img src="images/piano.jpg" width="100%" class="materialboxed"
+            data-caption="Older brothers wedding reception, November 2016."
+            alt="Image of Trenton playing piano for his brothers wedding reception - November 2016.">
           </div>
-          <div class="col s6">
-            <img src="images/main_body_2.jpg" width="100%" class="hide-on-med-and-up materialboxed"
-            data-caption="Jazz Bar Gig, August 2017."
-            alt="Image of Trenton holding his saxophone at a jazz bar gig - August 2017.">
+          <div class="col l6 s12">
+            <img src="images/esjo_with_drake.jpg" width="100%" class="materialboxed"
+            data-caption="Edinburgh Schools Jazz Orchestra and Drake Music Scotland Concert, June 2016."
+            alt="Image of Trenton playing baritone saxophone with the Edinburgh Schools Jazz Orchestra and Drake Music Scotland - June, 2016.">
           </div>
-          <div class="row">
-            <div class="col s12">
-              <img src="images/piano.jpg" width="100%" class="materialboxed"
-              data-caption="Older brothers wedding reception, November 2016."
-              alt="Image of Trenton playing piano for his brothers wedding reception - November 2016.">
-            </div>
-            <div class="col l6 s12">
-              <img src="images/esjo_with_drake.jpg" width="100%" class="materialboxed"
-              data-caption="Edinburgh Schools Jazz Orchestra and Drake Music Scotland Concert, June 2016."
-              alt="Image of Trenton playing baritone saxophone with the Edinburgh Schools Jazz Orchestra and Drake Music Scotland - June, 2016.">
-            </div>
-            <div class="col l6 s12">
-              <img src="images/tommy_smith.jpg" width="100%" class="materialboxed"
-              data-caption="Members of the Edinburgh Schools Jazz Orchestra and Tommy Smith, May 2016."
-              alt="Image of Trenton and other members of the Edinburgh Schools Jazz Orchestra and Tommy Smith - May, 2016.">
-            </div>
+          <div class="col l6 s12">
+            <img src="images/tommy_smith.jpg" width="100%" class="materialboxed"
+            data-caption="Members of the Edinburgh Schools Jazz Orchestra and Tommy Smith, May 2016."
+            alt="Image of Trenton and other members of the Edinburgh Schools Jazz Orchestra and Tommy Smith - May, 2016.">
           </div>
         </div>
       </section>
@@ -140,75 +136,75 @@
     <main id="reviews" class="container">
       <h3>Reviews</h3>
         <!-- Reviews -->
-        <article>
+        <section>
           <!-- Name -->
           <h4>Dominic Hoyle</h4>
           <!-- Rating -->
-          <p id=rating class="material-icons">star star star star</p><br>
+          <p class="material-icons">star star star star</p><br>
           <!-- Comment -->
-          <p1 class="flow-text">Trenton played beautifully and created a wonderful atmosphere while guest arrived at my daughters wedding reception. He was very professional, well before the day he sent us his extensive repertoire, so we were able to choose the perfect tunes for him to play for my daughters special day. Brilliant!<p1>
+          <p1 class="flow-text">Trenton played beautifully and created a wonderful atmosphere while guest arrived at my daughters wedding reception. He was very professional, well before the day he sent us his extensive repertoire, so we were able to choose the perfect tunes for him to play for my daughters special day. Brilliant!</p1>
           <hr>
-        </article>
+        </section>
 
-        <article>
+        <section>
           <!-- Name -->
           <h4>Jason Brandsma</h4>
           <!-- Rating -->
-          <p id=rating class="material-icons">star star star star half</p><br>
+          <p class="material-icons">star star star star half</p><br>
           <!-- Comment -->
-          <p1 class="flow-text">Trenton was fantastic at our wedding. We wanted Trenton to perform while everyone were eating their main courses and provide a very good mood. Trenton did more then this and managed to get a lot of people on the dance floor because of how well he interacted with the audience. Thanks once again.<p1>
+          <p1 class="flow-text">Trenton was fantastic at our wedding. We wanted Trenton to perform while everyone were eating their main courses and provide a very good mood. Trenton did more then this and managed to get a lot of people on the dance floor because of how well he interacted with the audience. Thanks once again.</p1>
           <hr>
-        </article>
+        </section>
 
-        <article>
+        <section>
           <!-- Name -->
           <h4>Bunky Buckby</h4>
           <!-- Rating -->
-          <p id=rating class="material-icons">star star star star star</p><br>
+          <p class="material-icons">star star star star star</p><br>
           <!-- Comment -->
-          <p1 class="flow-text">Trenton was easy to deal with in the arrangements. His performance for the first 45 minutes was gentle and quite laid-back. After his break he changed the pace of the music and everyone was up dancing. It was a great end to our day's celebrations. Thank you Trenton!<p1>
+          <p1 class="flow-text">Trenton was easy to deal with in the arrangements. His performance for the first 45 minutes was gentle and quite laid-back. After his break he changed the pace of the music and everyone was up dancing. It was a great end to our day's celebrations. Thank you Trenton!</p1>
           <hr>
-        </article>
+        </section>
 
-        <article>
+        <section>
           <!-- Name -->
           <h4>Susan Welsh</h4>
           <!-- Rating -->
-          <p id=rating class="material-icons">star star star star half</p><br>
+          <p class="material-icons">star star star star half</p><br>
           <!-- Comment -->
-          <p1 class="flow-text">Great sax player and really nice guy. I would recommend Trenton for all occasions.<p1>
+          <p1 class="flow-text">Great sax player and really nice guy. I would recommend Trenton for all occasions.</p1>
           <hr>
-        </article>
+        </section>
 
-        <article>
+        <section>
           <!-- Name -->
           <h4>Christopher Dickson</h4>
           <!-- Rating -->
-          <p id=rating class="material-icons">star star star star star</p><br>
+          <p class="material-icons">star star star star star</p><br>
           <!-- Comment -->
-          <p1 class="flow-text">Where do I start... I found Trenton on the internet as I was searching for a sax player for our wedding, I listened to his music on his page and was immediately taken back by it! He is truly amazing and he made our wedding so so special! Everyone loved it and it was beautiful to listen to as we arrived at the venue and also when we sat down for the wedding breakfast. Trenton got everyone up dancing and our day couldn't have gone anymore perfect. Thank you so much! HIGHLY RECOMMEND :-)<p1>
+          <p1 class="flow-text">Where do I start... I found Trenton on the internet as I was searching for a sax player for our wedding, I listened to his music on his page and was immediately taken back by it! He is truly amazing and he made our wedding so so special! Everyone loved it and it was beautiful to listen to as we arrived at the venue and also when we sat down for the wedding breakfast. Trenton got everyone up dancing and our day couldn't have gone anymore perfect. Thank you so much! HIGHLY RECOMMEND :-)</p1>
           <hr>
-        </article>
+        </section>
 
-        <article>
+        <section>
           <!-- Name -->
           <h4>Adam Weir</h4>
           <!-- Rating -->
-          <p id=rating class="material-icons">star star star star half</p><br>
+          <p class="material-icons">star star star star half</p><br>
           <!-- Comment -->
-          <p1 class="flow-text">Trenton played at our wedding and was absolutely fantastic, every one of our friends and family have all said just how good he was, Trenton's repertoire was amazing and catered for all tastes, we would recommend Trenton to anyone who is considering a top class sax player, Trenton both Michelle and I would like to thank you once again for helping to make our special day.<p1>
+          <p1 class="flow-text">Trenton played at our wedding and was absolutely fantastic, every one of our friends and family have all said just how good he was, Trenton's repertoire was amazing and catered for all tastes, we would recommend Trenton to anyone who is considering a top class sax player, Trenton both Michelle and I would like to thank you once again for helping to make our special day.</p1>
           <hr>
-        </article>
+        </section>
 
-        <article>
+        <section>
           <!-- Name -->
           <h4>Yasmin</h4>
           <!-- Rating -->
-          <p id=rating class="material-icons">star star star star star</p><br>
+          <p class="material-icons">star star star star star</p><br>
           <!-- Comment -->
-          <p1 class="flow-text">If we could do it all over again Trenton would still be our number one choice. Everyone has raved about him ever since and we thoroughly recommend him to all. His range of music suits all ages and I can't wait to book him again for more of our special events. Thank you Trenton you really made our day. Yasmin and Ibrahim xx<p1>
+          <p1 class="flow-text">If we could do it all over again Trenton would still be our number one choice. Everyone has raved about him ever since and we thoroughly recommend him to all. His range of music suits all ages and I can't wait to book him again for more of our special events. Thank you Trenton you really made our day. Yasmin and Ibrahim xx</p1>
           <hr>
-        </article>
+        </section>
     </main>
 
 
@@ -223,7 +219,6 @@
       <!-- Date for mobile  & tablet -->
       <span id="edudatesmall" class="hide-on-large-only">2011 - 2017</span>
       <br>
-      </h4>
       <h4 id="subject" class="flow-text">Advanced Higher Music, (A)</h4>
       <br>
       <p1 class="flow-text">
@@ -291,8 +286,8 @@
             </div>
             <div class="input-field col m6 s12">
               <i class="material-icons prefix">phone</i>
-              <input id="mobile number" type="tel" class="validate">
-              <label for="mobile number">Mobile Number</label>
+              <input id="mobilenumber" type="tel" class="validate">
+              <label for="mobilenumber">Mobile Number</label>
             </div>
           </div>
           <!-- Event date -->
@@ -334,10 +329,8 @@
           <div class="input_field col s12" style="padding-bottom:60px;">
             <!-- <i class="material_icons prefix">priority_high</i> -->
             <p>Is your enquiry urgent?</p>
-            <p1>
-              <input type="checkbox" id="urgent" />
-              <label for="urgent">Please check this box if your enquiry is urgent.</label>
-            </p1>
+            <input type="checkbox" id="urgent" />
+            <label for="urgent">Please check this box if your enquiry is urgent.</label>
           </div>
           <button class="btn waves-effect waves-light" type="submit" name="action" style="float:right;">Submit
             <i class="material-icons right">send</i>
@@ -350,22 +343,26 @@
 
     <footer class="page-footer">
       <div class="container">
+        <!-- Name and address -->
+        <div class="col l8 s10 offset-l2 offset-s1" style="padding-bottom:20px;padding-top:15px">
+          <img src="images/Footer_Address.svg" width="100%">
+        </div>
+        <!-- Other Links - Social and Site Map -->
         <div class="row">
-          <div class="col l8 s10 offset-l2 offset-s1" style="padding-bottom:20px;padding-top:15px">
-            <img src="images/Footer Address.svg" width="100%">
-          </div>
           <div class="col s6 l8">
             <h5 class="white-text">Social Media</h5>
             <p id="social_links" class="grey-text text-lighten-4">
               <a id="facebook" class="fa fa-facebook-square fa-2x" href="https://www.facebook.com/MyNameIsTrenton" target="_blank"></a>
               <a id="twitter" class="fa fa-twitter fa-2x" href="https://twitter.com/trentonox" target="_blank"></a>
               <a id="instagram" class="fa fa-instagram fa-2x" href="https://www.instagram.com/trentonox/" target="_blank"></a>
-              <a id="mail" class="fa fa-envelope fa-2x" target="enquiries" target="_self" href="#enquiries" onclick="$('ul.tabs').tabs('select_tab', 'enquiries')"></a>
+              <a id="mail" class="fa fa-envelope fa-2x" target="_self" href="#enquiries" onclick="$('ul.tabs').tabs('select_tab', 'enquiries')"></a>
             </p>
           </div>
+          <!-- Site Map -->
           <div class="col s6 l4">
             <h5 class="white-text">Site Map</h5>
             <ul>
+              <!-- Because I am using tabs to navigate, I have to tell it to change tabs when clicking on a link, rather than directly opening a link. This would mean having to open a file to a specific ID and it didn't seem to like that. -->
               <li><a class="grey-text text-lighten-3" target="_self" href="./index.html" onclick="$('ul.tabs').tabs('select_tab', 'about')">About</a></li>
               <li><a class="grey-text text-lighten-3 hide-on-med-and-up" target="gallery" href="#gallery" onclick="$('ul.tabs').tabs('select_tab', 'gallery')">Gallery</a></li>
               <li><a class="grey-text text-lighten-3" target="reviews" href="#reviews" onclick="$('ul.tabs').tabs('select_tab', 'reviews')">Reviews</a></li>
@@ -373,6 +370,7 @@
               <li><a class="grey-text text-lighten-3" target="enquiries" href="#enquiries" onclick="$('ul.tabs').tabs('select_tab', 'enquiries')">Enquiries</a></li>
             </ul>
           </div>
+
         </div>
       </div>
       <div class="footer-copyright">
@@ -385,16 +383,14 @@
 
 
     <!-- Javascript Files & jQuery Initialization -->
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <!-- <script src="js/nouislider.js"></script> -->
     <script src="js/lib/jquery.1.7.0.js"></script>
     <script src="js/lib/picker.js"></script>
     <script src="js/lib/picker.date.js"></script>
     <script src="js/lib/picker.time.js"></script>
     <script src="js/lib/legacy.js"></script>
     <script src="js/materialize.js"></script>
-    <!-- <script src="js/materialize.min.js"></script> -->
-
     <script>
       $(document).ready(function(){
 
@@ -404,7 +400,7 @@
           top:410,
         });
 
-        // Enquires
+        // Enquires page
         $('.datepicker').pickadate({
           selectMonths: true, // Creates a dropdown to control month
           selectYears: 4,
@@ -426,12 +422,6 @@
         });
       });
 
-      // $(document).ready(function(){
-      //   $('.parallax').parallax();
-      // });
-
     </script>
   </body>
-
-
 </html>

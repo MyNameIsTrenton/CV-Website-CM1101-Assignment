@@ -79,11 +79,13 @@ h3 {
 }
 
 #edudate {
+  font-size: 28px;
   float: right;
   font-style: italic;
 }
 
 #edudatesmall {
+  font-size: 28px;
   font-style: italic;
 }
 
@@ -91,9 +93,9 @@ h3 {
   font-style: italic;
 }
 
-/*a {
+a {
   color: inherit;
-}*/
+}
 
 /*ratings*/
 #reviews hr {
@@ -106,14 +108,11 @@ h3 {
   border-width: 1px;
 }
 
-
-/*CLASSES AND HOVERS ETC*/
+/*FRAMEWORK ALTERATIONS*/
 
 .nav_bar {
   width: 100%;
 }
-
-/*FRAMEWORK ALTERATIONS*/
 
 /*Class for when element is above threshold*/
 .pin-top {
@@ -174,24 +173,4 @@ i {
 
 .footer-copyright {
   background-color: #101010;
-}
-
-/*.nav-bar {
-  z-index: 9999;
-}*/
-
-/*.parallax-container {
-  height: 400px;
-}*/
-
-.parallax {
-  /* The image used */
-  background-image: url("images/header_image.png");
-  /* Set a specific height */
-  height: 400px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
